@@ -495,4 +495,98 @@
     <string name="appointmentRescheduled_primary_button">Ir a mi turno</string>
     <string name="appointmentRescheduled_secondary_button">Ir a inicio</string>
 
+    <!-- 32 · Última donación -->
+    <string name="lastDonation_bar_title">Mi elegibilidad</string>
+    <string name="lastDonation_title">Tu última donación</string>
+    <string name="lastDonation_subtitle">Usamos esta fecha para calcular cuándo puedes volver a donar.</string>
+    <string name="lastDonation_item1_title">Fecha</string>
+    <string name="lastDonation_item1_subtitle">15 de junio de 2026</string>
+    <string name="lastDonation_item2_title">Punto de donación</string>
+    <string name="lastDonation_item2_subtitle">Clínica de la 72</string>
+    <string name="lastDonation_item3_title">Volumen donado</string>
+    <string name="lastDonation_item3_subtitle">450 ml</string>
+    <string name="lastDonation_section_title">¿La fecha no es correcta?</string>
+    <string name="lastDonation_note">Si corriges la fecha, recalcularemos tu elegibilidad automáticamente.</string>
+    <string name="lastDonation_fix_date_button">Corregir fecha</string>
+    <string name="lastDonation_view_status_button">Ver estado</string>
+    <string name="lastDonation_fix_date_toast">Función no disponible en este prototipo</string>
+
+    <!-- 33 · Estado actual -->
+    <string name="currentStatus_bar_title">Mi elegibilidad</string>
+    <string name="currentStatus_title">Tu estado como donante</string>
+    <string name="currentStatus_subtitle">Faltan 8 días para que puedas donar de nuevo.</string>
+    <string name="currentStatus_stepper_label">82 de 90 días cumplidos</string>
+    <string name="currentStatus_section_title">Detalle del cálculo</string>
+    <string name="currentStatus_item1_title">Última donación</string>
+    <string name="currentStatus_item1_subtitle">15 de junio de 2026</string>
+    <string name="currentStatus_item2_title">Días transcurridos</string>
+    <string name="currentStatus_item2_subtitle">82 días</string>
+    <string name="currentStatus_item3_title">Días restantes</string>
+    <string name="currentStatus_item3_subtitle">8 días</string>
+    <string name="currentStatus_item4_title">Periodo mínimo</string>
+    <string name="currentStatus_item4_subtitle">90 días entre donaciones</string>
+    <string name="currentStatus_note">El periodo puede variar según el tipo de donación.</string>
+    <string name="currentStatus_view_eligibility_button">Ver elegibilidad</string>
+
+    <!-- 34 · Estado de elegibilidad (carga) -->
+    <string name="eligibilityStatusLoading_bar_title">Mi elegibilidad</string>
+    <string name="eligibilityStatusLoading_title">Calculando tu elegibilidad</string>
+    <string name="eligibilityStatusLoading_subtitle">Revisamos tu historial y los requisitos vigentes…</string>
+    <string name="eligibilityStatusLoading_caption">Esto toma unos segundos.</string>
+
+    <!-- 35 · Elegible para donar -->
+    <string name="eligibleToDonate_bar_title">Mi elegibilidad</string>
+    <string name="eligibleToDonate_banner_title">¡Eres elegible!</string>
+    <string name="eligibleToDonate_banner_body">Ya cumpliste el periodo de espera. Puedes agendar tu próxima donación.</string>
+    <string name="eligibleToDonate_section_title">Cumples con</string>
+    <string name="eligibleToDonate_item1_title">Periodo de espera</string>
+    <string name="eligibleToDonate_item1_subtitle">95 días desde tu última donación</string>
+    <string name="eligibleToDonate_item2_title">Edad</string>
+    <string name="eligibleToDonate_item2_subtitle">24 años</string>
+    <string name="eligibleToDonate_item3_title">Peso</string>
+    <string name="eligibleToDonate_item3_subtitle">62 kg</string>
+    <string name="eligibleToDonate_note">La verificación final la hace el personal del banco de sangre.</string>
+    <string name="eligibleToDonate_schedule_button">Agendar turno</string>
+    <string name="eligibleToDonate_nearby_points_button">Ver puntos cercanos</string>
+
+    <!-- 36 · Próxima fecha disponible -->
+    <string name="nextAvailableDate_bar_title">Mi elegibilidad</string>
+    <string name="nextAvailableDate_title">Tu próxima fecha</string>
+    <string name="nextAvailableDate_subtitle">Podrás donar de nuevo a partir de:</string>
+    <string name="nextAvailableDate_date">16 de septiembre de 2026</string>
+    <string name="nextAvailableDate_caption">Faltan 8 días.</string>
+    <string name="nextAvailableDate_section_title">Mientras tanto</string>
+    <string name="nextAvailableDate_item1_title">Activa un recordatorio</string>
+    <string name="nextAvailableDate_item1_subtitle">Te avisamos por correo ese día</string>
+    <string name="nextAvailableDate_item2_title">Revisa los requisitos</string>
+    <string name="nextAvailableDate_item2_subtitle">Para llegar preparado a tu cita</string>
+    <string name="nextAvailableDate_note">El cálculo usa el periodo mínimo de 90 días entre donaciones.</string>
+    <string name="nextAvailableDate_reminder_button">Activar recordatorio</string>
+    <string name="nextAvailableDate_back_button">Volver</string>
+
+    <!-- 37 · No elegible para donar -->
+    <string name="notEligibleToDonate_bar_title">Mi elegibilidad</string>
+    <string name="notEligibleToDonate_banner_title">Aún no eres elegible</string>
+    <string name="notEligibleToDonate_banner_body">Debes esperar 8 días más desde tu última donación.</string>
+    <string name="notEligibleToDonate_section_title">Motivo</string>
+    <string name="notEligibleToDonate_item1_title">Periodo de espera</string>
+    <string name="notEligibleToDonate_item1_subtitle">82 de 90 días cumplidos</string>
+    <string name="notEligibleToDonate_item2_title">Próxima fecha</string>
+    <string name="notEligibleToDonate_item2_subtitle">16 de septiembre de 2026</string>
+    <string name="notEligibleToDonate_note">Donar antes del periodo mínimo puede afectar tu salud.</string>
+    <string name="notEligibleToDonate_reminder_button">Activar recordatorio</string>
+    <string name="notEligibleToDonate_back_button">Volver</string>
+
+    <!-- 38 · Recordatorio -->
+    <string name="reminder_bar_title">Recordatorio</string>
+    <string name="reminder_banner_title">Recordatorio activado</string>
+    <string name="reminder_banner_body">Te enviaremos un correo electrónico el 16 de septiembre de 2026 cuando puedas volver a donar, además de avisarte en la aplicación.</string>
+    <string name="reminder_section_title">Preferencias de aviso</string>
+    <string name="reminder_check_app">Notificación en la aplicación (adicional)</string>
+    <string name="reminder_check_email">Correo electrónico (predeterminado)</string>
+    <string name="reminder_check_sms">Mensaje de texto (adicional)</string>
+    <string name="reminder_note">El correo electrónico es tu canal principal de aviso. Puedes activar canales adicionales o desactivarlos cuando quieras desde tu perfil.</string>
+    <string name="reminder_home_button">Ir a inicio</string>
+    <string name="reminder_view_eligibility_button">Ver mi elegibilidad</string>
+
 </resources>

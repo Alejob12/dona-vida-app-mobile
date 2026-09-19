@@ -52,6 +52,15 @@
         <activity android:name=".RescheduleAppointmentActivity" android:exported="false" />
         <activity android:name=".AppointmentRescheduledActivity" android:exported="false" />
 
+        <!-- Bloque Persona B: 32-38 (historial y elegibilidad) -->
+        <activity android:name=".LastDonationActivity" android:exported="false" />
+        <activity android:name=".CurrentStatusActivity" android:exported="false" />
+        <activity android:name=".EligibilityStatusLoadingActivity" android:exported="false" />
+        <activity android:name=".EligibleToDonateActivity" android:exported="false" />
+        <activity android:name=".NextAvailableDateActivity" android:exported="false" />
+        <activity android:name=".NotEligibleToDonateActivity" android:exported="false" />
+        <activity android:name=".ReminderActivity" android:exported="false" />
+
     </application>
 
 </manifest>
