@@ -267,4 +267,118 @@
     <string name="verifyEligibility_verify_button">Verificar</string>
     <string name="verifyEligibility_confidential_caption">Tus respuestas son confidenciales.</string>
 
+    <!-- Contenido decorativo compartido (bloque 16-22) -->
+    <string name="cd_icon_clock">Ícono de reloj</string>
+
+    <!-- 16 · Usuario no elegible -->
+    <string name="userNotEligible_bar_title">Resultado</string>
+    <string name="userNotEligible_banner_title">Aún no puedes donar</string>
+    <string name="userNotEligible_banner_body">Tu última donación fue hace 82 días y el mínimo es de 90 días.</string>
+    <string name="userNotEligible_section_title">Detalle</string>
+    <string name="userNotEligible_item1_title">Última donación</string>
+    <string name="userNotEligible_item1_subtitle">15 de junio de 2026</string>
+    <string name="userNotEligible_item2_title">Días restantes</string>
+    <string name="userNotEligible_item2_subtitle">8 días</string>
+    <string name="userNotEligible_item3_title">Próxima fecha disponible</string>
+    <string name="userNotEligible_item3_subtitle">16 de septiembre de 2026</string>
+    <string name="userNotEligible_note">Te avisaremos por correo electrónico apenas cumplas el periodo de espera.</string>
+    <string name="userNotEligible_reminder_button">Activar recordatorio</string>
+    <string name="userNotEligible_home_button">Volver al inicio</string>
+
+    <!-- 17 · Usuario elegible -->
+    <string name="userEligible_bar_title">Resultado</string>
+    <string name="userEligible_banner_title">¡Eres elegible!</string>
+    <string name="userEligible_banner_body">Cumples los requisitos para donar hoy en Clínica de la 72.</string>
+    <string name="userEligible_section_title">Resumen de tu verificación</string>
+    <string name="userEligible_item1_title">Edad</string>
+    <string name="userEligible_item1_subtitle">Cumple · 24 años</string>
+    <string name="userEligible_item2_title">Peso</string>
+    <string name="userEligible_item2_subtitle">Cumple · 62 kg</string>
+    <string name="userEligible_item3_title">Tiempo desde la última donación</string>
+    <string name="userEligible_item3_subtitle">Cumple · 95 días</string>
+    <string name="userEligible_note">Lleva tu documento de identidad el día de la donación.</string>
+    <string name="userEligible_continue_button">Continuar</string>
+    <string name="userEligible_step_caption">Paso 3 de 4 completado</string>
+
+    <!-- 18 · Seleccionar fecha -->
+    <string name="selectDate_bar_title">Seleccionar fecha</string>
+    <string name="selectDate_stepper_label">Paso 4 de 4 · Fecha y hora</string>
+    <string name="selectDate_title">Elige el día</string>
+    <string name="selectDate_subtitle">Disponibilidad de Clínica de la 72.</string>
+    <string name="selectDate_month_label">Septiembre 2026</string>
+    <string name="selectDate_prev_month">‹</string>
+    <string name="selectDate_next_month">›</string>
+    <string name="selectDate_weekday_mon">L</string>
+    <string name="selectDate_weekday_tue">M</string>
+    <string name="selectDate_weekday_wed">M</string>
+    <string name="selectDate_weekday_thu">J</string>
+    <string name="selectDate_weekday_fri">V</string>
+    <string name="selectDate_weekday_sat">S</string>
+    <string name="selectDate_weekday_sun">D</string>
+    <string name="selectDate_note">Los días con borde marcado tienen cupo disponible.</string>
+    <string name="selectDate_section_title">Días con más cupo</string>
+    <string name="selectDate_option1">Lunes 8 de septiembre · 6 cupos</string>
+    <string name="selectDate_option2">Martes 9 de septiembre · 2 cupos</string>
+    <string name="selectDate_continue_button">Continuar</string>
+
+    <!-- 19 · Seleccionar horario -->
+    <string name="selectTime_bar_title">Seleccionar horario</string>
+    <string name="selectTime_stepper_label">Paso 4 de 4 · Fecha y hora</string>
+    <string name="selectTime_title">Elige la hora</string>
+    <string name="selectTime_subtitle">Lunes 8 de septiembre · Clínica de la 72</string>
+    <string name="selectTime_section_morning">Mañana</string>
+    <string name="selectTime_section_afternoon">Tarde</string>
+    <string name="selectTime_option_morning1">8:00 am · 4 cupos</string>
+    <string name="selectTime_option_morning2">9:30 am · 1 cupo</string>
+    <string name="selectTime_option_morning3">10:00 am · 6 cupos</string>
+    <string name="selectTime_option_afternoon1">2:00 pm · 3 cupos</string>
+    <string name="selectTime_option_afternoon2_unavailable">4:00 pm · Sin cupo</string>
+    <string name="selectTime_note">Llega 10 minutos antes de la hora de tu turno.</string>
+    <string name="selectTime_confirm_button">Confirmar horario</string>
+    <string name="selectTime_change_date_button">Cambiar de fecha</string>
+
+    <!-- 20 · Sin horarios disponibles -->
+    <string name="noTimeSlots_bar_title">Seleccionar horario</string>
+    <string name="noTimeSlots_banner_title">No hay horarios disponibles</string>
+    <string name="noTimeSlots_banner_body">El martes 9 de septiembre no quedan cupos en Clínica de la 72.</string>
+    <string name="noTimeSlots_cd_illustration">Ilustración de calendario sin cupos disponibles</string>
+    <string name="noTimeSlots_section_title">Alternativas</string>
+    <string name="noTimeSlots_item1_title">Miércoles 10 de septiembre</string>
+    <string name="noTimeSlots_item1_subtitle">9 cupos disponibles en el mismo punto</string>
+    <string name="noTimeSlots_item2_title">Hospital San Rafael</string>
+    <string name="noTimeSlots_item2_subtitle">Martes 9 · 5 cupos · a 2.5 km</string>
+    <string name="noTimeSlots_note">También puedes activar un aviso por correo electrónico si se libera un cupo.</string>
+    <string name="noTimeSlots_other_date_button">Elegir otra fecha</string>
+    <string name="noTimeSlots_other_points_button">Ver otros puntos</string>
+
+    <!-- 21 · Resumen del turno -->
+    <string name="appointmentSummary_bar_title">Resumen del turno</string>
+    <string name="appointmentSummary_title">Revisa tu turno</string>
+    <string name="appointmentSummary_subtitle">Verifica los datos antes de confirmar.</string>
+    <string name="appointmentSummary_item1_title">Punto de donación</string>
+    <string name="appointmentSummary_item1_subtitle">Clínica de la 72 · Cra 20 # 72-10</string>
+    <string name="appointmentSummary_item2_title">Fecha</string>
+    <string name="appointmentSummary_item2_subtitle">Lunes 8 de septiembre de 2026</string>
+    <string name="appointmentSummary_item3_title">Hora</string>
+    <string name="appointmentSummary_item3_subtitle">10:00 am</string>
+    <string name="appointmentSummary_item4_title">Donante</string>
+    <string name="appointmentSummary_item4_subtitle">Laura Gómez · Tipo O-</string>
+    <string name="appointmentSummary_section_title">Antes de tu cita</string>
+    <string name="appointmentSummary_body_text">Duerme bien, desayuna e hidrátate. Lleva tu documento de identidad.</string>
+    <string name="appointmentSummary_note">Puedes cancelar o reprogramar hasta 4 horas antes.</string>
+    <string name="appointmentSummary_confirm_button">Confirmar turno</string>
+    <string name="appointmentSummary_edit_button">Editar</string>
+
+    <!-- 22 · Confirmar turno -->
+    <string name="confirmAppointment_bar_title">Confirmar turno</string>
+    <string name="confirmAppointment_title">¿Confirmas tu turno?</string>
+    <string name="confirmAppointment_subtitle">Revisa por última vez los datos antes de reservar el cupo.</string>
+    <string name="confirmAppointment_section_title">Detalle</string>
+    <string name="confirmAppointment_item1_title">Clínica de la 72</string>
+    <string name="confirmAppointment_item1_subtitle">Lunes 8 de septiembre · 10:00 am</string>
+    <string name="confirmAppointment_note">Se enviará un recordatorio por correo electrónico 24 horas antes de tu cita.</string>
+    <string name="confirmAppointment_confirm_button">Sí, confirmar</string>
+    <string name="confirmAppointment_cancel_button">Cancelar</string>
+    <string name="confirmAppointment_footer_caption">Al confirmar aceptas las políticas del banco de sangre.</string>
+
 </resources>

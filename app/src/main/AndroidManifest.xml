@@ -33,6 +33,13 @@
         <activity android:name=".BloodTypeNotRequiredActivity" android:exported="false" />
         <activity android:name=".BloodTypeRequiredActivity" android:exported="false" />
         <activity android:name=".VerifyEligibilityActivity" android:exported="false" />
+        <activity android:name=".UserNotEligibleActivity" android:exported="false" />
+        <activity android:name=".UserEligibleActivity" android:exported="false" />
+        <activity android:name=".SelectDateActivity" android:exported="false" />
+        <activity android:name=".SelectTimeActivity" android:exported="false" />
+        <activity android:name=".NoTimeSlotsActivity" android:exported="false" />
+        <activity android:name=".AppointmentSummaryActivity" android:exported="false" />
+        <activity android:name=".ConfirmAppointmentActivity" android:exported="false" />
 
     </application>
 
