@@ -148,4 +148,123 @@
     <string name="passwordRecoverySent_note">Por seguridad, el enlace solo puede usarse una vez.</string>
     <string name="passwordRecoverySent_resend_toast">Reenviamos el correo de recuperación.</string>
 
+    <!-- 09 · Home -->
+    <string name="home_bar_title">Dona Vida</string>
+    <string name="home_greeting">Hola, Laura</string>
+    <string name="home_subtitle">¿Qué deseas hacer hoy?</string>
+    <string name="home_next_appointment_section">Tu próximo turno</string>
+    <string name="home_next_appointment_link">Ver detalle</string>
+    <string name="home_next_appointment_title">Clínica de la 72</string>
+    <string name="home_next_appointment_subtitle">Lunes 8 de septiembre · 10:00 am</string>
+    <string name="home_reminder_note">Faltan 2 días. Recuerda desayunar e hidratarte antes de donar.</string>
+    <string name="home_quick_actions_section">Accesos rápidos</string>
+    <string name="home_action_donate_title">Donar sangre</string>
+    <string name="home_action_donate_subtitle">Encuentra un punto cercano</string>
+    <string name="home_action_appointment_title">Mi turno</string>
+    <string name="home_action_appointment_subtitle">Consulta, reprograma o cancela</string>
+    <string name="home_action_eligibility_title">Mi elegibilidad</string>
+    <string name="home_action_eligibility_subtitle">Faltan 8 días para tu próxima donación</string>
+    <string name="home_action_profile_title">Perfil</string>
+    <string name="home_action_profile_subtitle">Edita tus datos personales</string>
+
+    <!-- 10 · Seleccionar ubicación -->
+    <string name="selectLocation_bar_title">Donar sangre</string>
+    <string name="selectLocation_stepper_label">Paso 1 de 4 · Ubicación</string>
+    <string name="selectLocation_title">¿Dónde quieres donar?</string>
+    <string name="selectLocation_subtitle">Selecciona tu ciudad y te mostraremos los puntos habilitados más cercanos.</string>
+    <string name="selectLocation_search_hint">Buscar ciudad, barrio o dirección</string>
+    <string name="selectLocation_city_label">Ciudad</string>
+    <string name="selectLocation_city_value">Bogotá</string>
+    <string name="selectLocation_current_location_button">Usar mi ubicación actual</string>
+    <string name="selectLocation_current_location_toast">Usando tu ubicación actual…</string>
+    <string name="selectLocation_recent_section">Búsquedas recientes</string>
+    <string name="selectLocation_recent1_title">Bogotá · Chapinero</string>
+    <string name="selectLocation_recent1_subtitle">Última búsqueda hace 2 días</string>
+    <string name="selectLocation_recent2_title">Bogotá · Usaquén</string>
+    <string name="selectLocation_recent2_subtitle">Última búsqueda hace 1 semana</string>
+    <string name="selectLocation_note">Solo mostramos puntos habilitados por la Red Nacional de Bancos de Sangre.</string>
+    <string name="selectLocation_search_button">Buscar puntos</string>
+
+    <!-- 11 · Lista de puntos -->
+    <string name="pointsList_bar_title">Puntos cercanos</string>
+    <string name="pointsList_subtitle">4 puntos habilitados cerca de Chapinero, Bogotá</string>
+    <string name="pointsList_chip_nearest">Más cercano</string>
+    <string name="pointsList_chip_open_now">Abierto ahora</string>
+    <string name="pointsList_chip_no_line">Sin fila</string>
+    <string name="pointsList_results_section">Resultados</string>
+    <string name="pointsList_sort_link">Ordenar</string>
+    <string name="pointsList_note">Los tiempos de espera son aproximados y se actualizan cada hora.</string>
+    <string name="pointsList_point1_title">Clínica de la 72</string>
+    <string name="pointsList_point1_subtitle">Cra 20 # 72-10 · 1.2 km · Cierra 5 pm</string>
+    <string name="pointsList_point1_distance">1.2 km</string>
+    <string name="pointsList_point2_title">Hospital San Rafael</string>
+    <string name="pointsList_point2_subtitle">Calle 45 # 30-12 · 2.5 km · Cierra 6 pm</string>
+    <string name="pointsList_point2_distance">2.5 km</string>
+    <string name="pointsList_point3_title">Cruz Roja Colombiana</string>
+    <string name="pointsList_point3_subtitle">Av. 68 # 90-40 · 3.8 km · Cierra 4 pm</string>
+    <string name="pointsList_point3_distance">3.8 km</string>
+    <string name="pointsList_point4_title">Centro de Salud Norte</string>
+    <string name="pointsList_point4_subtitle">Cra 15 # 100-20 · 4.1 km · Cerrado hoy</string>
+    <string name="pointsList_point4_distance">4.1 km</string>
+
+    <!-- 12 · Detalle del punto -->
+    <string name="pointDetail_address1">Cra 20 # 72-10 · Chapinero, Bogotá</string>
+    <string name="pointDetail_address2">Calle 45 # 30-12 · Usaquén, Bogotá</string>
+    <string name="pointDetail_open_now_chip">Abierto ahora</string>
+    <string name="pointDetail_type_required_chip">Necesita O-</string>
+    <string name="pointDetail_type_any_chip">Acepta cualquier tipo</string>
+    <string name="pointDetail_hours_section">Horario de atención</string>
+    <string name="pointDetail_hours_weekdays">Lunes a viernes: 8:00 am - 5:00 pm</string>
+    <string name="pointDetail_hours_saturday">Sábados: 8:00 am - 12:00 m</string>
+    <string name="pointDetail_requirements_section">Requisitos</string>
+    <string name="pointDetail_requirements_text">Documento de identidad · No requiere ayuno</string>
+    <string name="pointDetail_urgent_note">Este punto necesita con urgencia donantes de tipo O-.</string>
+    <string name="pointDetail_schedule_button">Agendar turno</string>
+    <string name="pointDetail_transport_title">Pedir transporte</string>
+    <string name="pointDetail_transport_subtitle">Dirección enviada automática · sin escribirla</string>
+    <string name="pointDetail_transport_toast">Función disponible próximamente.</string>
+
+    <!-- 13 · Tipo no requerido -->
+    <string name="bloodTypeNotRequired_bar_title">Requisitos del punto</string>
+    <string name="bloodTypeNotRequired_stepper_label">Paso 2 de 4 · Requisitos</string>
+    <string name="bloodTypeNotRequired_banner_title">Todos los tipos de sangre</string>
+    <string name="bloodTypeNotRequired_banner_body">Este punto acepta donantes de cualquier tipo. El tuyo registrado es O-.</string>
+    <string name="bloodTypeNotRequired_section_title">Necesidad actual del banco</string>
+    <string name="bloodTypeNotRequired_item1_title">O- · Necesidad crítica</string>
+    <string name="bloodTypeNotRequired_item1_subtitle">Menos de 1 día de reserva</string>
+    <string name="bloodTypeNotRequired_item2_title">A+ · Necesidad media</string>
+    <string name="bloodTypeNotRequired_item2_subtitle">3 días de reserva</string>
+    <string name="bloodTypeNotRequired_item3_title">AB+ · Reserva suficiente</string>
+    <string name="bloodTypeNotRequired_item3_subtitle">7 días de reserva</string>
+    <string name="bloodTypeNotRequired_note">La necesidad de cada tipo de sangre se actualiza cada 24 horas.</string>
+    <string name="bloodTypeNotRequired_continue_button">Continuar</string>
+
+    <!-- 14 · Tipo requerido -->
+    <string name="bloodTypeRequired_bar_title">Requisitos del punto</string>
+    <string name="bloodTypeRequired_stepper_label">Paso 2 de 4 · Requisitos</string>
+    <string name="bloodTypeRequired_banner_title">Tipo específico requerido</string>
+    <string name="bloodTypeRequired_banner_body">Hoy este punto solo recibe donantes O-. Confirma tu tipo para continuar.</string>
+    <string name="bloodTypeRequired_section_title">Confirma tu tipo de sangre</string>
+    <string name="bloodTypeRequired_option_registered">O- (registrado en tu perfil)</string>
+    <string name="bloodTypeRequired_option_other">Otro tipo de sangre</string>
+    <string name="bloodTypeRequired_option_unknown">No lo sé</string>
+    <string name="bloodTypeRequired_note">Si no conoces tu tipo, en el punto pueden hacerte la prueba sin costo.</string>
+    <string name="bloodTypeRequired_continue_button">Continuar</string>
+    <string name="bloodTypeRequired_other_points_button">Ver otros puntos</string>
+
+    <!-- 15 · Verificar elegibilidad -->
+    <string name="verifyEligibility_bar_title">Verificar elegibilidad</string>
+    <string name="verifyEligibility_stepper_label">Paso 3 de 4 · Elegibilidad</string>
+    <string name="verifyEligibility_title">Cuestionario rápido</string>
+    <string name="verifyEligibility_subtitle">Responde estas preguntas para saber si puedes donar hoy.</string>
+    <string name="verifyEligibility_check1">Tengo entre 18 y 65 años</string>
+    <string name="verifyEligibility_check2">Peso más de 50 kg</string>
+    <string name="verifyEligibility_check3">Mi última donación fue hace más de 90 días</string>
+    <string name="verifyEligibility_check4">Sin fiebre ni gripa en los últimos 7 días</string>
+    <string name="verifyEligibility_check5">No estoy tomando antibióticos</string>
+    <string name="verifyEligibility_check6">Sin tatuajes en los últimos 6 meses</string>
+    <string name="verifyEligibility_note">Un profesional repetirá esta verificación el día de la donación.</string>
+    <string name="verifyEligibility_verify_button">Verificar</string>
+    <string name="verifyEligibility_confidential_caption">Tus respuestas son confidenciales.</string>
+
 </resources>

@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorIconSoftFill" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/bottom_tab_bar_height"
+        android:background="@color/colorSurface"
+        android:elevation="@dimen/elevation_card"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/tabDonar"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/icon_size_default"
+                android:layout_height="@dimen/icon_size_default"
+                android:contentDescription="@string/cd_tab_donar"
+                android:src="@drawable/ic_drop_logo"
+                android:tint="@color/colorTextSecondary" />
+
+            <TextView
+                android:id="@+id/tabDonarLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xxs"
+                android:text="@string/tab_donar"
+                android:textAppearance="@style/TextAppearance.DonaVida.Caption" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tabTurno"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/icon_size_default"
+                android:layout_height="@dimen/icon_size_default"
+                android:contentDescription="@string/cd_tab_turno"
+                android:src="@drawable/ic_event"
+                android:tint="@color/colorTextSecondary" />
+
+            <TextView
+                android:id="@+id/tabTurnoLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xxs"
+                android:text="@string/tab_turno"
+                android:textAppearance="@style/TextAppearance.DonaVida.Caption" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tabElegibilidad"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/icon_size_default"
+                android:layout_height="@dimen/icon_size_default"
+                android:contentDescription="@string/cd_tab_elegibilidad"
+                android:src="@drawable/ic_check_circle"
+                android:tint="@color/colorTextSecondary" />
+
+            <TextView
+                android:id="@+id/tabElegibilidadLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xxs"
+                android:text="@string/tab_elegibilidad"
+                android:textAppearance="@style/TextAppearance.DonaVida.Caption" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/tabPerfil"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="@dimen/icon_size_default"
+                android:layout_height="@dimen/icon_size_default"
+                android:contentDescription="@string/cd_tab_perfil"
+                android:src="@drawable/ic_person"
+                android:tint="@color/colorTextSecondary" />
+
+            <TextView
+                android:id="@+id/tabPerfilLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xxs"
+                android:text="@string/tab_perfil"
+                android:textAppearance="@style/TextAppearance.DonaVida.Caption" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
