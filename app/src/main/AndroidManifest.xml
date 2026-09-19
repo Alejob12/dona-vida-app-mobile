@@ -61,6 +61,13 @@
         <activity android:name=".NotEligibleToDonateActivity" android:exported="false" />
         <activity android:name=".ReminderActivity" android:exported="false" />
 
+        <!-- Bloque Persona B: 39-43 (perfil) -->
+        <activity android:name=".PersonalDataActivity" android:exported="false" />
+        <activity android:name=".EditProfileActivity" android:exported="false" />
+        <activity android:name=".SaveChangesLoadingActivity" android:exported="false" />
+        <activity android:name=".InfoUpdatedActivity" android:exported="false" />
+        <activity android:name=".LogoutActivity" android:exported="false" />
+
     </application>
 
 </manifest>

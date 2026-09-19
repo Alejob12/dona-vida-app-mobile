@@ -589,4 +589,68 @@
     <string name="reminder_home_button">Ir a inicio</string>
     <string name="reminder_view_eligibility_button">Ver mi elegibilidad</string>
 
+    <!-- 39 · Datos personales -->
+    <string name="personalData_bar_title">Perfil</string>
+    <string name="personalData_avatar_initials">LG</string>
+    <string name="personalData_user_name">Laura Gómez</string>
+    <string name="personalData_user_since">Donante desde marzo de 2026</string>
+    <string name="personalData_user_stats">2 donaciones realizadas · Tipo O-</string>
+    <string name="personalData_note">El tipo de sangre y el correo se usan para verificar tu elegibilidad.</string>
+    <string name="personalData_section_title">Datos personales</string>
+    <string name="personalData_item1_title">Nombre</string>
+    <string name="personalData_item1_subtitle">Laura Gómez</string>
+    <string name="personalData_item2_title">Correo</string>
+    <string name="personalData_item2_subtitle">laura.gomez@email.com</string>
+    <string name="personalData_item3_title">Teléfono</string>
+    <string name="personalData_item3_subtitle">300 000 0000</string>
+    <string name="personalData_item4_title">Tipo de sangre</string>
+    <string name="personalData_item4_subtitle">O-</string>
+    <string name="personalData_item5_title">Ciudad</string>
+    <string name="personalData_item5_subtitle">Bogotá</string>
+    <string name="personalData_edit_button">Editar perfil</string>
+    <string name="personalData_logout_button">Cerrar sesión</string>
+
+    <!-- 40 · Editar perfil -->
+    <string name="editProfile_bar_title">Editar perfil</string>
+    <string name="editProfile_change_photo">Cambiar foto de perfil</string>
+    <string name="editProfile_section_title">Datos personales</string>
+    <string name="editProfile_name_label">Nombre completo</string>
+    <string name="editProfile_name_hint">Laura Gómez</string>
+    <string name="editProfile_phone_label">Teléfono</string>
+    <string name="editProfile_phone_hint">300 000 0000</string>
+    <string name="editProfile_city_label">Ciudad</string>
+    <string name="editProfile_city_hint">Bogotá</string>
+    <string name="editProfile_note">El correo y el tipo de sangre no se pueden editar aquí.</string>
+    <string name="editProfile_save_button">Guardar cambios</string>
+    <string name="editProfile_discard_button">Descartar cambios</string>
+
+    <!-- 41 · Guardar cambios -->
+    <string name="saveChangesLoading_bar_title">Editar perfil</string>
+    <string name="saveChangesLoading_title">Guardando tus cambios</string>
+    <string name="saveChangesLoading_subtitle">No cierres la aplicación mientras guardamos…</string>
+    <string name="saveChangesLoading_caption">Esto toma unos segundos.</string>
+
+    <!-- 42 · Información actualizada -->
+    <string name="infoUpdated_title">Perfil actualizado</string>
+    <string name="infoUpdated_banner_title">Cambios guardados</string>
+    <string name="infoUpdated_banner_body">Tus datos se actualizaron correctamente el 6 de septiembre de 2026.</string>
+    <string name="infoUpdated_section_title">Cambios aplicados</string>
+    <string name="infoUpdated_item1_title">Teléfono</string>
+    <string name="infoUpdated_item1_subtitle">300 000 0000</string>
+    <string name="infoUpdated_item2_title">Ciudad</string>
+    <string name="infoUpdated_item2_subtitle">Bogotá</string>
+    <string name="infoUpdated_back_button">Volver a mi perfil</string>
+
+    <!-- 43 · Cerrar sesión -->
+    <string name="logout_bar_title">Cerrar sesión</string>
+    <string name="logout_section_title">Sesión actual</string>
+    <string name="logout_user_name">Laura Gómez</string>
+    <string name="logout_user_email">laura.gomez@email.com</string>
+    <string name="logout_title">¿Cerrar sesión?</string>
+    <string name="logout_subtitle">Tendrás que ingresar tu correo y contraseña la próxima vez que abras la aplicación.</string>
+    <string name="logout_note">Tu turno agendado no se cancela al cerrar sesión.</string>
+    <string name="logout_confirm_button">Sí, cerrar sesión</string>
+    <string name="logout_cancel_button">Cancelar</string>
+    <string name="logout_footer_caption">Podrás volver a iniciar sesión cuando quieras.</string>
+
 </resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_screen_brand_pattern"
+    android:fitsSystemWindows="true">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:clipToPadding="false"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingStart="@dimen/spacing_md"
+            android:paddingEnd="@dimen/spacing_md"
+            android:paddingTop="@dimen/spacing_xxl"
+            android:paddingBottom="@dimen/spacing_lg">
+
+            <ImageView
+                android:layout_width="@dimen/brand_image_size"
+                android:layout_height="@dimen/brand_image_size"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/bg_icon_container"
+                android:contentDescription="@string/cd_brand_logo"
+                android:padding="@dimen/spacing_lg"
+                android:src="@drawable/ic_drop_logo"
+                android:tint="@color/colorPrimary" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_lg"
+                android:gravity="center"
+                android:text="@string/infoUpdated_title"
+                android:textAppearance="@style/TextAppearance.DonaVida.Title" />
+
+            <include
+                android:id="@+id/banner"
+                layout="@layout/partial_banner_confirmation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_lg" />
+
+            <include
+                android:id="@+id/sectionAppliedChanges"
+                layout="@layout/partial_section_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_md" />
+
+            <include
+                android:id="@+id/itemPhone"
+                layout="@layout/partial_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xs" />
+
+            <include
+                android:id="@+id/itemCity"
+                layout="@layout/partial_list_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_xxs" />
+
+            <Button
+                android:id="@+id/backToProfileButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/spacing_md"
+                android:text="@string/infoUpdated_back_button"
+                style="@style/Widget.DonaVida.Button.Primary" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
