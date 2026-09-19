@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_banner_confirmation"
+    android:minHeight="92dp"
+    android:padding="@dimen/spacing_sm">
+
+    <View
+        android:id="@+id/bannerAccentBar"
+        android:layout_width="4dp"
+        android:layout_height="0dp"
+        android:background="@drawable/bg_accent_bar_banner"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/bannerIcon"
+        android:layout_width="22dp"
+        android:layout_height="22dp"
+        android:layout_marginStart="@dimen/spacing_sm"
+        android:contentDescription="@string/cd_icon_check_circle"
+        android:src="@drawable/ic_check_circle"
+        android:tint="@color/colorPrimary"
+        app:layout_constraintStart_toEndOf="@id/bannerAccentBar"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/bannerTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/spacing_xs"
+        android:textAppearance="@style/TextAppearance.DonaVida.Body"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/bannerIcon"
+        app:layout_constraintTop_toTopOf="@id/bannerIcon" />
+
+    <TextView
+        android:id="@+id/bannerBody"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_xxs"
+        android:textAppearance="@style/TextAppearance.DonaVida.Body"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/bannerTitle"
+        app:layout_constraintTop_toBottomOf="@id/bannerIcon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

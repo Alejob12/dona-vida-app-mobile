@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Tema base (AppTheme) -->
+    <color name="colorPrimary">#7A1734</color>
+    <color name="colorPrimaryDark">#5A1027</color>
+    <color name="colorAccent">#7A1734</color>
+
+    <!-- Paleta del sistema de diseño Dona Vida -->
+    <color name="colorTextPrimary">#1F1013</color>
+    <color name="colorTextSecondary">#6B4C55</color>
+    <color name="colorBackground">#F5F2F1</color>
+    <color name="colorSurface">#FFFFFF</color>
+    <color name="colorBorder">#C98CA0</color>
+    <color name="colorIconSoftFill">#F4DCE1</color>
+    <color name="colorBannerBackground">#FAF2F4</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorDecorativeGlow">#33F4DCE1</color>
+    <color name="colorIdentityLineStart">#617A1734</color>
+    <color name="colorIdentityLineCenter">#1F7A1734</color>
+    <color name="colorIdentityLineEnd">#007A1734</color>
+    <color name="colorRippleOverlay">#1A7A1734</color>
+</resources>

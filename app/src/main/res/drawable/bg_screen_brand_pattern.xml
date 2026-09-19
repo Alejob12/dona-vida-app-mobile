@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/colorBackground" />
+        </shape>
+    </item>
+    <item
+        android:width="210dp"
+        android:height="210dp"
+        android:gravity="top|end"
+        android:drawable="@drawable/bg_decorative_ellipse" />
+    <item
+        android:width="260dp"
+        android:height="260dp"
+        android:gravity="bottom|start"
+        android:drawable="@drawable/bg_glow_ellipse" />
+    <item
+        android:width="96dp"
+        android:height="60dp"
+        android:gravity="bottom|start"
+        android:left="16dp"
+        android:bottom="72dp"
+        android:drawable="@drawable/ic_texture_dots" />
+</layer-list>
