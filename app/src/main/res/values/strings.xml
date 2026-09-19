@@ -381,4 +381,118 @@
     <string name="confirmAppointment_cancel_button">Cancelar</string>
     <string name="confirmAppointment_footer_caption">Al confirmar aceptas las políticas del banco de sangre.</string>
 
+    <!-- 23 · Turno agendado -->
+    <string name="appointmentScheduled_title">¡Turno agendado!</string>
+    <string name="appointmentScheduled_banner_title">Turno confirmado</string>
+    <string name="appointmentScheduled_banner_body">Te esperamos el lunes 8 de septiembre a las 10:00 am en Clínica de la 72.</string>
+    <string name="appointmentScheduled_section_title">Recuerda</string>
+    <string name="appointmentScheduled_body_text">Lleva tu documento · Desayuna antes · Hidrátate bien</string>
+    <string name="appointmentScheduled_note">Enviamos los detalles y el código DV-2026-0148 a tu correo.</string>
+    <string name="appointmentScheduled_primary_button">Ir a mi turno</string>
+    <string name="appointmentScheduled_secondary_button">Agregar al calendario</string>
+    <string name="appointmentScheduled_item1_title">Pedir transporte al punto</string>
+    <string name="appointmentScheduled_item1_subtitle">Enviamos la dirección a tu app · sin escribirla</string>
+
+    <!-- 24 · ¿Tiene turno? -->
+    <string name="checkAppointment_bar_title">Mi turno</string>
+    <string name="checkAppointment_title">Consultando tus turnos</string>
+    <string name="checkAppointment_subtitle">Estamos revisando si tienes un turno programado…</string>
+    <string name="checkAppointment_caption">Esto toma unos segundos.</string>
+
+    <!-- 25 · Sin turnos programados -->
+    <string name="noAppointments_bar_title">Mi turno</string>
+    <string name="noAppointments_title">No tienes turnos programados</string>
+    <string name="noAppointments_subtitle">Cuando agendes una donación, aparecerá aquí con todos sus detalles.</string>
+    <string name="noAppointments_primary_button">Agendar turno</string>
+    <string name="noAppointments_section_title">Historial de donaciones</string>
+    <string name="noAppointments_section_link">Ver todo</string>
+    <string name="noAppointments_item1_title">15 de junio de 2026</string>
+    <string name="noAppointments_item1_subtitle">Clínica de la 72 · 450 ml</string>
+    <string name="noAppointments_item2_title">10 de marzo de 2026</string>
+    <string name="noAppointments_item2_subtitle">Cruz Roja Colombiana · 450 ml</string>
+    <string name="noAppointments_note">Has donado 2 veces. ¡Gracias por tu aporte!</string>
+
+    <!-- 26 · Agendar turno (intro) -->
+    <string name="scheduleAppointmentIntro_bar_title">Agendar turno</string>
+    <string name="scheduleAppointmentIntro_title">Vamos a agendar tu donación</string>
+    <string name="scheduleAppointmentIntro_subtitle">El proceso toma menos de 2 minutos y tiene 4 pasos.</string>
+    <string name="scheduleAppointmentIntro_section_title">Lo que haremos</string>
+    <string name="scheduleAppointmentIntro_item1_title">1. Elegir ubicación</string>
+    <string name="scheduleAppointmentIntro_item1_subtitle">Ciudad y punto de donación</string>
+    <string name="scheduleAppointmentIntro_item2_title">2. Revisar requisitos</string>
+    <string name="scheduleAppointmentIntro_item2_subtitle">Tipo de sangre solicitado</string>
+    <string name="scheduleAppointmentIntro_item3_title">3. Verificar elegibilidad</string>
+    <string name="scheduleAppointmentIntro_item3_subtitle">Cuestionario rápido de 6 preguntas</string>
+    <string name="scheduleAppointmentIntro_item4_title">4. Elegir fecha y hora</string>
+    <string name="scheduleAppointmentIntro_item4_subtitle">Según la disponibilidad del punto</string>
+    <string name="scheduleAppointmentIntro_note">Puedes salir y retomar el proceso en cualquier momento.</string>
+    <string name="scheduleAppointmentIntro_primary_button">Ir a donar sangre</string>
+    <string name="scheduleAppointmentIntro_secondary_button">Volver</string>
+
+    <!-- 27 · Detalle del turno -->
+    <string name="appointmentDetail_bar_title">Mi turno</string>
+    <string name="appointmentDetail_banner_title">Turno confirmado</string>
+    <string name="appointmentDetail_banner_body">Faltan 2 días para tu donación.</string>
+    <string name="appointmentDetail_section_title">Detalle</string>
+    <string name="appointmentDetail_item1_title">Punto de donación</string>
+    <string name="appointmentDetail_item1_subtitle">Clínica de la 72 · Cra 20 # 72-10</string>
+    <string name="appointmentDetail_item2_title">Fecha</string>
+    <string name="appointmentDetail_item2_subtitle">Lunes 8 de septiembre de 2026</string>
+    <string name="appointmentDetail_item3_title">Hora</string>
+    <string name="appointmentDetail_item3_subtitle">10:00 am</string>
+    <string name="appointmentDetail_item4_title">Código de turno</string>
+    <string name="appointmentDetail_item4_subtitle">DV-2026-0148</string>
+    <string name="appointmentDetail_note">Puedes cancelar o reprogramar hasta 4 horas antes.</string>
+    <string name="appointmentDetail_reschedule_button">Reprogramar</string>
+    <string name="appointmentDetail_cancel_button">Cancelar turno</string>
+
+    <!-- 28 · Cancelar turno -->
+    <string name="cancelAppointment_bar_title">Cancelar turno</string>
+    <string name="cancelAppointment_title">¿Cancelar tu turno?</string>
+    <string name="cancelAppointment_subtitle">Perderás el cupo del lunes 8 de septiembre a las 10:00 am en Clínica de la 72.</string>
+    <string name="cancelAppointment_section_title">Cuéntanos por qué</string>
+    <string name="cancelAppointment_reason_option1">Ya no puedo asistir ese día</string>
+    <string name="cancelAppointment_reason_option2">Encontré un punto más cercano</string>
+    <string name="cancelAppointment_reason_option3">Motivos de salud</string>
+    <string name="cancelAppointment_reason_option4">Otro motivo</string>
+    <string name="cancelAppointment_comment_label">Comentario (opcional)</string>
+    <string name="cancelAppointment_comment_hint">Escribe aquí tu comentario…</string>
+    <string name="cancelAppointment_note">Cancelar no afecta tu historial ni tu elegibilidad.</string>
+    <string name="cancelAppointment_confirm_button">Sí, cancelar</string>
+    <string name="cancelAppointment_back_button">No, volver</string>
+
+    <!-- 29 · Turno cancelado -->
+    <string name="appointmentCancelled_title">Turno cancelado</string>
+    <string name="appointmentCancelled_banner_title">Cancelación exitosa</string>
+    <string name="appointmentCancelled_banner_body">Tu turno del lunes 8 de septiembre fue cancelado. El cupo quedó libre para otro donante.</string>
+    <string name="appointmentCancelled_section_title">¿Qué sigue?</string>
+    <string name="appointmentCancelled_note">Puedes agendar uno nuevo cuando quieras.</string>
+    <string name="appointmentCancelled_primary_button">Agendar otro turno</string>
+    <string name="appointmentCancelled_secondary_button">Ir a inicio</string>
+
+    <!-- 30 · Reprogramar turno -->
+    <string name="rescheduleAppointment_bar_title">Reprogramar turno</string>
+    <string name="rescheduleAppointment_current_appointment">Turno actual: lunes 8 de septiembre, 10:00 am · Clínica de la 72</string>
+    <string name="rescheduleAppointment_date_section_title">Nueva fecha</string>
+    <string name="rescheduleAppointment_date_option1">Jueves 11 de septiembre · 5 cupos</string>
+    <string name="rescheduleAppointment_date_option2">Viernes 12 de septiembre · 2 cupos</string>
+    <string name="rescheduleAppointment_date_option3">Sábado 13 de septiembre · 8 cupos</string>
+    <string name="rescheduleAppointment_time_section_title">Nueva hora</string>
+    <string name="rescheduleAppointment_time_option1">8:00 am</string>
+    <string name="rescheduleAppointment_time_option2">10:00 am</string>
+    <string name="rescheduleAppointment_time_option3">2:00 pm</string>
+    <string name="rescheduleAppointment_note">Solo puedes reprogramar dos veces el mismo turno.</string>
+    <string name="rescheduleAppointment_confirm_button">Confirmar nueva fecha</string>
+    <string name="rescheduleAppointment_back_button">Volver</string>
+
+    <!-- 31 · Turno reprogramado -->
+    <string name="appointmentRescheduled_title">Turno reprogramado</string>
+    <string name="appointmentRescheduled_banner_title">Cambio confirmado</string>
+    <string name="appointmentRescheduled_banner_body">Tu nuevo turno es el jueves 11 de septiembre a las 10:00 am en Clínica de la 72.</string>
+    <string name="appointmentRescheduled_previous_caption">Antes: lunes 8 de septiembre, 10:00 am</string>
+    <string name="appointmentRescheduled_section_title">Cambio aplicado</string>
+    <string name="appointmentRescheduled_note">Actualizamos tu recordatorio automáticamente y te lo confirmamos por correo electrónico.</string>
+    <string name="appointmentRescheduled_primary_button">Ir a mi turno</string>
+    <string name="appointmentRescheduled_secondary_button">Ir a inicio</string>
+
 </resources>

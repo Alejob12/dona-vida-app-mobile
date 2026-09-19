@@ -41,6 +41,17 @@
         <activity android:name=".AppointmentSummaryActivity" android:exported="false" />
         <activity android:name=".ConfirmAppointmentActivity" android:exported="false" />
 
+        <!-- Bloque Persona B: 23-31 (turno agendado y gestión de turnos) -->
+        <activity android:name=".AppointmentScheduledActivity" android:exported="false" />
+        <activity android:name=".CheckAppointmentActivity" android:exported="false" />
+        <activity android:name=".NoAppointmentsActivity" android:exported="false" />
+        <activity android:name=".ScheduleAppointmentIntroActivity" android:exported="false" />
+        <activity android:name=".AppointmentDetailActivity" android:exported="false" />
+        <activity android:name=".CancelAppointmentActivity" android:exported="false" />
+        <activity android:name=".AppointmentCancelledActivity" android:exported="false" />
+        <activity android:name=".RescheduleAppointmentActivity" android:exported="false" />
+        <activity android:name=".AppointmentRescheduledActivity" android:exported="false" />
+
     </application>
 
 </manifest>
