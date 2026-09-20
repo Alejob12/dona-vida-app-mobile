@@ -9,40 +9,52 @@
         <item name="android:statusBarColor">@color/colorPrimaryDark</item>
         <item name="android:windowBackground">@color/colorBackground</item>
         <item name="android:textColorPrimary">@color/colorTextPrimary</item>
+        <!-- Inter es la tipografia del diseno; sin esto Android usaria Roboto -->
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="fontFamily">@font/inter</item>
     </style>
 
     <!-- Estilos de texto -->
     <style name="TextAppearance.DonaVida.Title" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textFontWeight">700</item>
         <item name="android:textSize">24sp</item>
-        <item name="android:textStyle">bold</item>
         <item name="android:textColor">@color/colorTextPrimary</item>
     </style>
 
     <style name="TextAppearance.DonaVida.Subtitle" parent="TextAppearance.AppCompat">
         <item name="android:textSize">18sp</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textFontWeight">600</item>
         <item name="android:textColor">@color/colorTextPrimary</item>
     </style>
 
     <style name="TextAppearance.DonaVida.Body" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textFontWeight">400</item>
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">@color/colorTextPrimary</item>
     </style>
 
     <style name="TextAppearance.DonaVida.BodySecondary" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textFontWeight">400</item>
         <item name="android:textSize">14sp</item>
         <item name="android:textColor">@color/colorTextSecondary</item>
     </style>
 
     <style name="TextAppearance.DonaVida.Caption" parent="TextAppearance.AppCompat">
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textFontWeight">400</item>
         <item name="android:textSize">12sp</item>
         <item name="android:textColor">@color/colorTextSecondary</item>
     </style>
 
     <style name="TextAppearance.DonaVida.ButtonLabel" parent="TextAppearance.AppCompat">
         <item name="android:textSize">14sp</item>
-        <item name="android:fontFamily">sans-serif-medium</item>
-        <item name="android:letterSpacing">0.02</item>
+        <item name="android:fontFamily">@font/inter</item>
+        <item name="android:textFontWeight">600</item>
+        <item name="android:letterSpacing">0</item>
     </style>
 
     <!-- Botones (MaterialButton: el tema MaterialComponents infla todo <Button> como
